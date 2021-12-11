@@ -1,0 +1,72 @@
+/* Animation */
+
+.scroll {
+	width: 100vW;
+	height: 125vW;
+}
+
+/* Spacing */
+
+.fix {
+	position: fixed;
+	text-align: center;
+	top: 15vw;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+/* Text */
+
+h1 {
+	color: rgb(231, 231, 231);
+	font-family: 'Coustard', serif;
+	font-size: 80px;
+}
+
+p {
+	color: rgb(231, 231, 231);
+	font-family: 'Coustard', serif;
+	font-size: 20px;
+	margin-top: -60px;
+	padding-bottom: 40px;
+}
+
+.arrow {
+	color: rgb(231, 231, 231);
+	font-family: 'Biryani', sans-serif;
+	font-size: 100px;
+	position: fixed;
+	top: 100px;
+}
+
+/* Form */
+
+input {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.30);
+	border: 2px solid rgb(231, 231, 231);
+}
+
+input[type=text] {
+	color: rgb(231, 231, 231);
+	font-family: 'Biryani', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+input[type=submit] {
+	color: rgb(231, 231, 231);
+	font-family: 'Biryani', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+input::-webkit-input-placeholder {
+	color: rgb(231, 231, 231);
+	font-family: 'Biryani', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
